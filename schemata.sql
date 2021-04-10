@@ -1,3 +1,5 @@
+
+  
 CREATE TABLE titles (
 
 					title_id VARCHAR(30) NOT NULL,
@@ -28,7 +30,6 @@ CREATE TABLE salaries(
 					)
 
 
-
 CREATE TABLE departments(
 
 						dept_no VARCHAR(30)NOT NULL,
@@ -48,9 +49,7 @@ CREATE TABLE dept_emp(
 					)
 
 
-
-
-CREATE TABLE dept_manag(
+CREATE TABLE dept_manager(
 	
 						dept_no VARCHAR(30) NOT NULL,
 						emp_no INT NOT NULL,
@@ -59,3 +58,4 @@ CREATE TABLE dept_manag(
 						primary key (dept_no, emp_no)
 	
 						)
+						
